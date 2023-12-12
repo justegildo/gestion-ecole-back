@@ -54,7 +54,7 @@ app.use('/api/file-upload',  fileUploaRoutes);
 
 
 //le port
-app.listen(process.env.SERVEUR_PORT, '192.168.100.26',  () => 
+app.listen(process.env.SERVEUR_PORT,  () => 
     console.log(`Server started in port ${process.env.SERVEUR_PORT} && aller sur le swagger http://localhost:${process.env.SERVEUR_PORT}/gestion-ecole-api-docs`
 ));
 //startApp();
